@@ -1,7 +1,7 @@
 import { supabase } from '@/lib/supabaseClient';
 import { useState, useEffect } from 'react';
 import styles from './catalog.module.css';
-
+import router from 'next/router';
 const imgCompany = [
   {
     id: 17,
